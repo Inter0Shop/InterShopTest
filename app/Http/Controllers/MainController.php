@@ -6,9 +6,14 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    /*public function home(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    public function home()
     {
-        return view('welcome');
+        return view('home');
     }
-    */
+
+    public function side()
+    {
+        return view('sideMenu');
+    }
+
 }
